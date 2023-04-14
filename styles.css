@@ -1,0 +1,128 @@
+:root{
+    --color-main: #A2D2FF;
+    --color-accent: #FFC8DD;
+    --color-dark: #CDB4DB;
+    --color-off-white: #BDE0FE;
+    --color-action: #FFAFCC;
+    --content-max-width: 500px;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.navbar {
+    background-color: transparent;
+    color: #BDE0FE;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+}
+
+.nav-list{
+    list-style-type: none;
+}
+
+.nav-list .item{
+    display: inline-block;
+    padding: 20px 20px;
+}
+.navbar a{
+    font-family: 'Playfair Display', serif;
+    color: white;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: deepskyblue;
+}
+.nav-logo
+{
+    height: 45px
+}
+.fullblock
+{
+    background-image: url("dark-river.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 1600px;
+    box-sizing: border-box;
+}
+.display
+{
+    font-family: 'Playfair Display', serif;
+    font-size: xx-large;
+    font-weight: 400;
+    color: white;
+    max-width: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 55vh;
+    background-color: transparent;
+}
+.caption
+{
+    font-family: 'Playfair Display', serif;
+    font-size: x-large;
+    font-weight: 400;
+    color: white;
+    max-width: 650px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    height: 15vh;
+    background-color: transparent;
+}
+.one-third
+{
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: x-large;
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+    align-items: center;
+    padding: 0 50px;
+    box-sizing: border-box;
+    background: transparent;
+}
+.left
+{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 50px;
+    height: 600px;
+    width: 25%;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    background: #032A49;
+    padding: 0 50px;
+}
+.center
+{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 50px;
+    height: 600px;
+    width: 25%;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    background: #032A49;
+    padding: 0 50px;
+}
+.right
+{
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    width: 25%;
+    height: 600px;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    background: #032A49;
+    padding: 0 50px;
+}
