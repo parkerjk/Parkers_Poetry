@@ -102,7 +102,9 @@
     float: left;
     text-align: center;
     box-sizing: border-box;
-    background: #032A49;
+    background: url("f&i.jpg") no-repeat;
+    background-size: 100% 100%;
+    object-fit: contain;
     padding: 0 50px;
 }
 .center
@@ -129,7 +131,15 @@
     background: #032A49;
     padding: 0 50px;
 }
-
+.image
+{
+    border-radius: 50px;
+    width: 20%;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 5px;
+}
 @keyframes Color{
     0%{
         color:#A0D468;
