@@ -185,6 +185,59 @@ p
     background-size: 100% 100%;
     object-fit: contain;
 }
+.poetblock
+{
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    background-color: #BDE0FE;
+    text-align: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    margin-top: 100px;
+    overflow: hidden;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 400px;
+}
+.poetblock .poetpic
+{
+    display: inline-block;
+    height: 400px;
+    background: url(edgar.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    -moz-border-radius-bottomleft: 50px;
+    -moz-border-radius-topleft: 50px;
+    overflow: hidden;
+}
+
+.poetblock .poetpic3
+{
+    display: inline-block;
+    height: 400px;
+    background: url(emily.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    -moz-border-radius-bottomleft: 50px;
+    -moz-border-radius-topleft: 50px;
+    overflow: hidden;
+
+}
+
+.poetblock .poetpic2
+{
+    display: inline-block;
+    height: 400px;
+    background: url(will.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    -moz-border-radius-bottomright: 50px;
+    -moz-border-radius-topright: 50px;
+    overflow: hidden;
+
+}
+
 .image
 {
     border-radius: 50px;
