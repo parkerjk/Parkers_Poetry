@@ -235,7 +235,44 @@ p
     -moz-border-radius-bottomright: 50px;
     -moz-border-radius-topright: 50px;
     overflow: hidden;
+}
+.poettextleft
+{
+    text-align: left;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-top: 80px;
+}
+.poettextleft li
+{
+    margin-bottom: 25px;
+}
 
+.poettextbottom
+{
+    text-align: left;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-top: 45px;
+}
+.poettextbottom li
+{
+    margin-bottom: 25px;
+}
+
+.poettextmiddle
+{
+    text-align: left;
+    font-size: xx-large;
+    margin-left: 40px;
+    font-weight: bold;
+    margin-top: 45px;
+}
+.poettextmiddle li
+{
+    margin-bottom: 25px;
 }
 
 .image
