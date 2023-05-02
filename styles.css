@@ -55,7 +55,7 @@ p
     background-repeat: no-repeat;
     background-attachment: fixed;
     width: 100%;
-    height: 1600px;
+    height: 1400px;
     box-sizing: border-box;
 }
 .fullblockpoet
@@ -65,7 +65,7 @@ p
     background-repeat: no-repeat;
     background-attachment: fixed;
     width: 100%;
-    height: 1600px;
+    height: 2000px;
     box-sizing: border-box;
 }
 .fullblockcreate
@@ -80,12 +80,12 @@ p
 }
 .fullblockquotes
 {
-    background-image: url("volcano.jpg");
+    background-image: url("naturenight.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     width: 100%;
-    height: 1600px;
+    height: 1000px;
     box-sizing: border-box;
 }
 .fullblockabout
@@ -95,7 +95,7 @@ p
     background-repeat: no-repeat;
     background-attachment: fixed;
     width: 100%;
-    height: 1600px;
+    height: 970px;
     box-sizing: border-box;
 }
 .display
@@ -110,11 +110,32 @@ p
     justify-content: center;
     text-align: center;
     margin: 0 auto;
-    height: 55vh;
+    height: 35vh;
     background-color: transparent;
     animation: Color 4s linear infinite;
     -webkit-animation: Color 4s ease-in-out infinite;
 }
+
+.display1
+{
+    font-family: 'Playfair Display', serif;
+    font-size: xxx-large;
+    font-weight: bold;
+    background: #3535E5;
+    background: linear-gradient(to right, #3535E5 0%, #3ce5ec 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    max-width: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    height: 25vh;
+    background-color: transparent;
+
+}
+
 .caption
 {
     font-family: 'Playfair Display', serif;
@@ -193,7 +214,6 @@ p
     text-align: center;
     justify-content: center;
     box-sizing: border-box;
-
     margin-top: 100px;
     overflow: hidden;
     margin-left: 100px;
@@ -327,6 +347,37 @@ input[type="submit"] {
 }
 input[type="submit"]:hover {
     background-color: #45a049;
+}
+
+.quotesOT
+{
+    font-family: 'Roboto Slab', serif;
+    border-radius: 20px;
+    width: 31%;
+    height: fit-content;
+    border-color: #ED5565;
+    box-sizing: border-box;
+    color: white;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    margin: 15px;
+    padding: 15px;
+    font-size: x-large;
+    box-shadow: 18px 40px 86px -1px rgba(0,0,0,0.68);
+    background-image: linear-gradient(to right top, #1600ff, #cb00be, #f4008c, #f86b78, #eba38a);
+
+}
+.quotesOT p
+{
+    padding: inherit;
+    font-size: small;
+}
+
+footer
+{
+    margin-top: 75px;
+    color: white;
 }
 
 
