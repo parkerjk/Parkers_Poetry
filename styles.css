@@ -379,6 +379,18 @@ footer
     margin-top: 75px;
     color: white;
 }
+.about1
+{
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+    margin-top: -20px;
+    padding: 15px;
+}
 
 
 @keyframes Color{
